@@ -1,8 +1,7 @@
 """INK FLOOD"""
 import math
 S,N =map(int,(input().split()))
-pi = 3.1416
-r =math.sqrt(S/pi)
+PI = 3.1416
 limit = 0
 pigud = []
 while limit < N:
@@ -10,5 +9,5 @@ while limit < N:
     limit +=1
 for i in pigud:
     x,y = i
-    print(x)
-    print(y)
+    time = (PI*((x**2+y**2)))/S
+    print(math.ceil(time))
