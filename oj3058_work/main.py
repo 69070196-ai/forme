@@ -2,12 +2,13 @@
 a = int(input())
 b = int(input())
 goal = int(input())
-a1 = goal-b*5
-if a<a1:
+a1 = goal-(b*5)
+if a1 > a:
     print(-1)
-if a1 < 0:
-    if b*5 > goal:
-        a1 = goal -((b-1)*5)
-        print(a1)
-if a>=a1:
+elif a1<0:
+    if b <= 2:
+        print(a1+5)
+    else:
+        print(a1+(5*(b-2)))
+else:
     print(a1)
