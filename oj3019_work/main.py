@@ -1,14 +1,15 @@
 """safe password check"""
 alpha = input()
 integer = input()
+check = alpha+integer
 def main():
     """function"""
-    password = ["H", "4567"]
-    if [alpha,integer] == password:
+    password = "H4567"
+    if check == password:
         print("safe unlocked")
-    elif alpha == password[0]:
+    elif check[0] == password[0]:
         print("safe locked - change digit")
-    elif integer == password[1]:
+    elif check[1:] == password[1:]:
         print("safe locked - change char")
     else:
         print("safe locked")
