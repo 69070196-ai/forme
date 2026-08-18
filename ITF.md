@@ -121,7 +121,7 @@
 
 ### 🔑 คำศัพท์และแนวคิดสำคัญ:
 
-- หน่วยความจุ: $1\text{ Byte} = 8\text{ Bits}$ | ลำดับ: $\text{KB = 10**3} \rightarrow \text{MB = 10**6} \rightarrow \text{GB = 10**9} \rightarrow \text{TB = 10**12} \rightarrow \text{PB = 10**15} \rightarrow \text{EB = 10**18} \rightarrow \text{ZB = 10**21} \rightarrow \text{YB = 10**24}$
+- หน่วยความจุ: $1\text{ Byte} = 8\text{ Bits}$ | ลำดับ: $\text{KB} \rightarrow \text{MB} \rightarrow \text{GB} \rightarrow \text{TB} \rightarrow \text{PB} \rightarrow \text{EB} \rightarrow \text{ZB} \rightarrow \text{YB}$
 
 #### โครงสร้างสื่อเก็บบันทึกข้อมูล:
 
