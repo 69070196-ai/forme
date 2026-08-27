@@ -2,7 +2,9 @@
 from math import ceil
 khao = float(input())
 aok = float(input())
-time = ceil(aok-khao)
+time = aok-khao
+if time > 0.15:
+    time = ceil(time)
 park = {
     1:25,
     2:50,
@@ -11,11 +13,11 @@ park = {
     5:145,
     6:180,
 }
-if 0.15 <= time >= 0:
+if time <=  0.15:
     print("FREE")
 elif 1 <= time <= 6:
     print(park[time])
-elif 24 <= time >= 7:
+elif 6 < time <= 24:
     print(250)
 else:
     print("ERROR")
