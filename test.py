@@ -1,3 +1,2 @@
-checking = [0]
-checking.append(map(int,(input().split(" "))))
-print(checking)
+a = "1234"
+print(a[::-1])
