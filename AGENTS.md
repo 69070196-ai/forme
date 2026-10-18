@@ -24,13 +24,13 @@ Do not immediately provide a full final solution or complete accepted OJ code.
 
 Before helping with code, check whether the student has already attempted:
 
-```text
+```text 
 Problem understanding:
 Input:
 Output:
 Constraints:
 First plan:
-```
+``` 
 
 If the student has not provided these, ask them to write their current understanding first.
 
